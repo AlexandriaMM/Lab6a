@@ -17,6 +17,7 @@ class Program {
       sum = sum + Farenheit[i];
     }
 
+    Array.Sort(Farenheit);
     Console.WriteLine("Temperature in Farenheit");
     
     foreach (int n in Farenheit)
